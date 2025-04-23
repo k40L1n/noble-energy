@@ -36,12 +36,13 @@ export default function HomePage() {
   }, [])
 
   useEffect(() => {
-    if (!emblaApi) return
-
-    const onSelect = () => setSelectedIndex(emblaApi.selectedScrollSnap())
-    emblaApi.on('select', onSelect)
-    return () => emblaApi?.off('select', onSelect)
-  }, [emblaApi])
+    if (!emblaApi) return undefined;
+  
+    const onSelect = () => setSelectedIndex(emblaApi.selectedScrollSnap());
+    emblaApi.on('select', onSelect);
+  
+    return () => emblaApi.off('select', onSelect);
+  }, [emblaApi]);
 
   return (
     <div className="w-screen h-screen overflow-hidden relative">
