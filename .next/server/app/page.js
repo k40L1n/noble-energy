@@ -146,29 +146,7 @@ eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__web
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ HomePage)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"(ssr)/./node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var embla_carousel_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! embla-carousel-react */ \"(ssr)/./node_modules/embla-carousel-react/esm/embla-carousel-react.esm.js\");\n/* harmony import */ var _queries_getSliders__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/queries/getSliders */ \"(ssr)/./src/queries/getSliders.ts\");\n/* __next_internal_client_entry_do_not_use__ default auto */ \n\n\n\nfunction HomePage() {\n    const [emblaRef] = (0,embla_carousel_react__WEBPACK_IMPORTED_MODULE_3__[\"default\"])();\n    const [slides, setSlides] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)([]);\n    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)({\n        \"HomePage.useEffect\": ()=>{\n            (0,_queries_getSliders__WEBPACK_IMPORTED_MODULE_2__.getSliders)().then(setSlides);\n        }\n    }[\"HomePage.useEffect\"], []);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"embla\",\n        ref: emblaRef,\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: \"embla__container\",\n            children: slides.map((slide)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"embla__slide\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                            src: slide.imageUrl,\n                            alt: slide.title\n                        }, void 0, false, {\n                            fileName: \"/Users/arqam/Desktop/noble-energy/src/app/page.tsx\",\n                            lineNumber: 28,\n                            columnNumber: 13\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h2\", {\n                            children: slide.title\n                        }, void 0, false, {\n                            fileName: \"/Users/arqam/Desktop/noble-energy/src/app/page.tsx\",\n                            lineNumber: 29,\n                            columnNumber: 13\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                            children: slide.subtitle\n                        }, void 0, false, {\n                            fileName: \"/Users/arqam/Desktop/noble-energy/src/app/page.tsx\",\n                            lineNumber: 30,\n                            columnNumber: 13\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: slide.buttonLink || '#',\n                            target: \"_blank\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                                children: slide.buttonText\n                            }, void 0, false, {\n                                fileName: \"/Users/arqam/Desktop/noble-energy/src/app/page.tsx\",\n                                lineNumber: 32,\n                                columnNumber: 15\n                            }, this)\n                        }, void 0, false, {\n                            fileName: \"/Users/arqam/Desktop/noble-energy/src/app/page.tsx\",\n                            lineNumber: 31,\n                            columnNumber: 13\n                        }, this)\n                    ]\n                }, slide._id, true, {\n                    fileName: \"/Users/arqam/Desktop/noble-energy/src/app/page.tsx\",\n                    lineNumber: 27,\n                    columnNumber: 11\n                }, this))\n        }, void 0, false, {\n            fileName: \"/Users/arqam/Desktop/noble-energy/src/app/page.tsx\",\n            lineNumber: 25,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/arqam/Desktop/noble-energy/src/app/page.tsx\",\n        lineNumber: 24,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9zcmMvYXBwL3BhZ2UudHN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7O0FBQzJDO0FBQ1E7QUFDRjtBQVdsQyxTQUFTSTtJQUN0QixNQUFNLENBQUNDLFNBQVMsR0FBR0gsZ0VBQWdCQTtJQUNuQyxNQUFNLENBQUNJLFFBQVFDLFVBQVUsR0FBR04sK0NBQVFBLENBQVUsRUFBRTtJQUVoREQsZ0RBQVNBOzhCQUFDO1lBQ1JHLCtEQUFVQSxHQUFHSyxJQUFJLENBQUNEO1FBQ3BCOzZCQUFHLEVBQUU7SUFFTCxxQkFDRSw4REFBQ0U7UUFBSUMsV0FBVTtRQUFRQyxLQUFLTjtrQkFDMUIsNEVBQUNJO1lBQUlDLFdBQVU7c0JBQ1pKLE9BQU9NLEdBQUcsQ0FBQyxDQUFDQyxzQkFDWCw4REFBQ0o7b0JBQUlDLFdBQVU7O3NDQUNiLDhEQUFDSTs0QkFBSUMsS0FBS0YsTUFBTUcsUUFBUTs0QkFBRUMsS0FBS0osTUFBTUssS0FBSzs7Ozs7O3NDQUMxQyw4REFBQ0M7c0NBQUlOLE1BQU1LLEtBQUs7Ozs7OztzQ0FDaEIsOERBQUNFO3NDQUFHUCxNQUFNUSxRQUFROzs7Ozs7c0NBQ2xCLDhEQUFDQzs0QkFBRUMsTUFBTVYsTUFBTVcsVUFBVSxJQUFJOzRCQUFLQyxRQUFPO3NDQUN2Qyw0RUFBQ0M7MENBQVFiLE1BQU1jLFVBQVU7Ozs7Ozs7Ozs7OzttQkFMTWQsTUFBTWUsR0FBRzs7Ozs7Ozs7Ozs7Ozs7O0FBWXREIiwic291cmNlcyI6WyIvVXNlcnMvYXJxYW0vRGVza3RvcC9ub2JsZS1lbmVyZ3kvc3JjL2FwcC9wYWdlLnRzeCJdLCJzb3VyY2VzQ29udGVudCI6WyIndXNlIGNsaWVudCdcbmltcG9ydCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCdcbmltcG9ydCB1c2VFbWJsYUNhcm91c2VsIGZyb20gJ2VtYmxhLWNhcm91c2VsLXJlYWN0J1xuaW1wb3J0IHsgZ2V0U2xpZGVycyB9IGZyb20gJ0AvcXVlcmllcy9nZXRTbGlkZXJzJ1xuXG50eXBlIFNsaWRlID0ge1xuICBfaWQ6IHN0cmluZ1xuICB0aXRsZTogc3RyaW5nXG4gIHN1YnRpdGxlOiBzdHJpbmdcbiAgaW1hZ2VVcmw6IHN0cmluZ1xuICBidXR0b25UZXh0OiBzdHJpbmdcbiAgYnV0dG9uTGluazogc3RyaW5nXG59XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEhvbWVQYWdlKCkge1xuICBjb25zdCBbZW1ibGFSZWZdID0gdXNlRW1ibGFDYXJvdXNlbCgpXG4gIGNvbnN0IFtzbGlkZXMsIHNldFNsaWRlc10gPSB1c2VTdGF0ZTxTbGlkZVtdPihbXSlcblxuICB1c2VFZmZlY3QoKCkgPT4ge1xuICAgIGdldFNsaWRlcnMoKS50aGVuKHNldFNsaWRlcylcbiAgfSwgW10pXG5cbiAgcmV0dXJuIChcbiAgICA8ZGl2IGNsYXNzTmFtZT1cImVtYmxhXCIgcmVmPXtlbWJsYVJlZn0+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cImVtYmxhX19jb250YWluZXJcIj5cbiAgICAgICAge3NsaWRlcy5tYXAoKHNsaWRlKSA9PiAoXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJlbWJsYV9fc2xpZGVcIiBrZXk9e3NsaWRlLl9pZH0+XG4gICAgICAgICAgICA8aW1nIHNyYz17c2xpZGUuaW1hZ2VVcmx9IGFsdD17c2xpZGUudGl0bGV9IC8+XG4gICAgICAgICAgICA8aDI+e3NsaWRlLnRpdGxlfTwvaDI+XG4gICAgICAgICAgICA8cD57c2xpZGUuc3VidGl0bGV9PC9wPlxuICAgICAgICAgICAgPGEgaHJlZj17c2xpZGUuYnV0dG9uTGluayB8fCAnIyd9IHRhcmdldD1cIl9ibGFua1wiPlxuICAgICAgICAgICAgICA8YnV0dG9uPntzbGlkZS5idXR0b25UZXh0fTwvYnV0dG9uPlxuICAgICAgICAgICAgPC9hPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICApKX1cbiAgICAgIDwvZGl2PlxuICAgIDwvZGl2PlxuICApXG59Il0sIm5hbWVzIjpbInVzZUVmZmVjdCIsInVzZVN0YXRlIiwidXNlRW1ibGFDYXJvdXNlbCIsImdldFNsaWRlcnMiLCJIb21lUGFnZSIsImVtYmxhUmVmIiwic2xpZGVzIiwic2V0U2xpZGVzIiwidGhlbiIsImRpdiIsImNsYXNzTmFtZSIsInJlZiIsIm1hcCIsInNsaWRlIiwiaW1nIiwic3JjIiwiaW1hZ2VVcmwiLCJhbHQiLCJ0aXRsZSIsImgyIiwicCIsInN1YnRpdGxlIiwiYSIsImhyZWYiLCJidXR0b25MaW5rIiwidGFyZ2V0IiwiYnV0dG9uIiwiYnV0dG9uVGV4dCIsIl9pZCJdLCJpZ25vcmVMaXN0IjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./src/app/page.tsx\n");
-
-/***/ }),
-
-/***/ "(ssr)/./src/lib/sanityClient.ts":
-/*!*********************************!*\
-  !*** ./src/lib/sanityClient.ts ***!
-  \*********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   sanityClient: () => (/* binding */ sanityClient)\n/* harmony export */ });\n/* harmony import */ var _sanity_client__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @sanity/client */ \"(ssr)/./node_modules/@sanity/client/dist/index.js\");\n\nconst sanityClient = (0,_sanity_client__WEBPACK_IMPORTED_MODULE_0__.createClient)({\n    projectId: '2yzstkat',\n    dataset: 'production',\n    apiVersion: '2023-01-01',\n    useCdn: false,\n    token: \"skeLqEiDVSZSFDzvfDpQALfjmgDcF7s5v97TkgbzvAHDxRLrLmQl078PgkH1mPIa1VxKfr8Arkhf69ZUNwBpnGGMEnDSbUOaqqsgJtlziyYxSI82nWVHnCJzqDDpXIUQfSWmDvBAkGKpcoNxSbXViCzgvWLCts7abkBrs59Ocey1o3vCb594\"\n});\nconsole.log('SANITY TOKEN:', \"skeLqEiDVSZSFDzvfDpQALfjmgDcF7s5v97TkgbzvAHDxRLrLmQl078PgkH1mPIa1VxKfr8Arkhf69ZUNwBpnGGMEnDSbUOaqqsgJtlziyYxSI82nWVHnCJzqDDpXIUQfSWmDvBAkGKpcoNxSbXViCzgvWLCts7abkBrs59Ocey1o3vCb594\");\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9zcmMvbGliL3Nhbml0eUNsaWVudC50cyIsIm1hcHBpbmdzIjoiOzs7OztBQUE2QztBQUV0QyxNQUFNQyxlQUFlRCw0REFBWUEsQ0FBQztJQUN2Q0UsV0FBVztJQUNYQyxTQUFTO0lBQ1RDLFlBQVk7SUFDWkMsUUFBUTtJQUNSQyxPQUFPQyxzTEFBb0M7QUFDN0MsR0FBRTtBQUVGRyxRQUFRQyxHQUFHLENBQUMsaUJBQWlCSixzTEFBb0MiLCJzb3VyY2VzIjpbIi9Vc2Vycy9hcnFhbS9EZXNrdG9wL25vYmxlLWVuZXJneS9zcmMvbGliL3Nhbml0eUNsaWVudC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc2FuaXR5L2NsaWVudCdcblxuZXhwb3J0IGNvbnN0IHNhbml0eUNsaWVudCA9IGNyZWF0ZUNsaWVudCh7XG4gIHByb2plY3RJZDogJzJ5enN0a2F0JyxcbiAgZGF0YXNldDogJ3Byb2R1Y3Rpb24nLFxuICBhcGlWZXJzaW9uOiAnMjAyMy0wMS0wMScsXG4gIHVzZUNkbjogZmFsc2UsXG4gIHRva2VuOiBwcm9jZXNzLmVudi5ORVhUX1BVQkxJQ19TQU5JVFlfVE9LRU4sXG59KVxuXG5jb25zb2xlLmxvZygnU0FOSVRZIFRPS0VOOicsIHByb2Nlc3MuZW52Lk5FWFRfUFVCTElDX1NBTklUWV9UT0tFTikiXSwibmFtZXMiOlsiY3JlYXRlQ2xpZW50Iiwic2FuaXR5Q2xpZW50IiwicHJvamVjdElkIiwiZGF0YXNldCIsImFwaVZlcnNpb24iLCJ1c2VDZG4iLCJ0b2tlbiIsInByb2Nlc3MiLCJlbnYiLCJORVhUX1BVQkxJQ19TQU5JVFlfVE9LRU4iLCJjb25zb2xlIiwibG9nIl0sImlnbm9yZUxpc3QiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(ssr)/./src/lib/sanityClient.ts\n");
-
-/***/ }),
-
-/***/ "(ssr)/./src/queries/getSliders.ts":
-/*!***********************************!*\
-  !*** ./src/queries/getSliders.ts ***!
-  \***********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   getSliders: () => (/* binding */ getSliders)\n/* harmony export */ });\n/* harmony import */ var _lib_sanityClient__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/lib/sanityClient */ \"(ssr)/./src/lib/sanityClient.ts\");\n\nasync function getSliders() {\n    const query = `*[_type == \"slider\"]{\n    _id,\n    title,\n    subtitle,\n    \"imageUrl\": image.asset->url,\n    buttonText,\n    buttonLink\n  }`;\n    return await _lib_sanityClient__WEBPACK_IMPORTED_MODULE_0__.sanityClient.fetch(query);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9zcmMvcXVlcmllcy9nZXRTbGlkZXJzLnRzIiwibWFwcGluZ3MiOiI7Ozs7O0FBQWlEO0FBRTFDLGVBQWVDO0lBQ3BCLE1BQU1DLFFBQVEsQ0FBQzs7Ozs7OztHQU9kLENBQUM7SUFFRixPQUFPLE1BQU1GLDJEQUFZQSxDQUFDRyxLQUFLLENBQUNEO0FBQ2xDIiwic291cmNlcyI6WyIvVXNlcnMvYXJxYW0vRGVza3RvcC9ub2JsZS1lbmVyZ3kvc3JjL3F1ZXJpZXMvZ2V0U2xpZGVycy50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBzYW5pdHlDbGllbnQgfSBmcm9tICdAL2xpYi9zYW5pdHlDbGllbnQnXG5cbmV4cG9ydCBhc3luYyBmdW5jdGlvbiBnZXRTbGlkZXJzKCkge1xuICBjb25zdCBxdWVyeSA9IGAqW190eXBlID09IFwic2xpZGVyXCJde1xuICAgIF9pZCxcbiAgICB0aXRsZSxcbiAgICBzdWJ0aXRsZSxcbiAgICBcImltYWdlVXJsXCI6IGltYWdlLmFzc2V0LT51cmwsXG4gICAgYnV0dG9uVGV4dCxcbiAgICBidXR0b25MaW5rXG4gIH1gXG5cbiAgcmV0dXJuIGF3YWl0IHNhbml0eUNsaWVudC5mZXRjaChxdWVyeSlcbn0iXSwibmFtZXMiOlsic2FuaXR5Q2xpZW50IiwiZ2V0U2xpZGVycyIsInF1ZXJ5IiwiZmV0Y2giXSwiaWdub3JlTGlzdCI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(ssr)/./src/queries/getSliders.ts\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ HomePage)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"(ssr)/./node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var embla_carousel_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! embla-carousel-react */ \"(ssr)/./node_modules/embla-carousel-react/esm/embla-carousel-react.esm.js\");\n/* __next_internal_client_entry_do_not_use__ default auto */ \n\n\nfunction HomePage() {\n    const [emblaRef] = (0,embla_carousel_react__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\n    const [slides, setSlides] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)([]);\n    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)({\n        \"HomePage.useEffect\": ()=>{\n            fetch('/api/sliders').then({\n                \"HomePage.useEffect\": (res)=>res.json()\n            }[\"HomePage.useEffect\"]).then(setSlides);\n        }\n    }[\"HomePage.useEffect\"], []);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"embla\",\n        ref: emblaRef,\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: \"embla__container\",\n            children: slides.map((slide)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"embla__slide\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                            src: slide.imageUrl,\n                            alt: slide.title\n                        }, void 0, false, {\n                            fileName: \"/Users/arqam/Desktop/noble-energy/src/app/page.tsx\",\n                            lineNumber: 30,\n                            columnNumber: 13\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h2\", {\n                            children: slide.title\n                        }, void 0, false, {\n                            fileName: \"/Users/arqam/Desktop/noble-energy/src/app/page.tsx\",\n                            lineNumber: 31,\n                            columnNumber: 13\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                            children: slide.subtitle\n                        }, void 0, false, {\n                            fileName: \"/Users/arqam/Desktop/noble-energy/src/app/page.tsx\",\n                            lineNumber: 32,\n                            columnNumber: 13\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: slide.buttonLink || '#',\n                            target: \"_blank\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                                children: slide.buttonText\n                            }, void 0, false, {\n                                fileName: \"/Users/arqam/Desktop/noble-energy/src/app/page.tsx\",\n                                lineNumber: 34,\n                                columnNumber: 15\n                            }, this)\n                        }, void 0, false, {\n                            fileName: \"/Users/arqam/Desktop/noble-energy/src/app/page.tsx\",\n                            lineNumber: 33,\n                            columnNumber: 13\n                        }, this)\n                    ]\n                }, slide._id, true, {\n                    fileName: \"/Users/arqam/Desktop/noble-energy/src/app/page.tsx\",\n                    lineNumber: 29,\n                    columnNumber: 11\n                }, this))\n        }, void 0, false, {\n            fileName: \"/Users/arqam/Desktop/noble-energy/src/app/page.tsx\",\n            lineNumber: 27,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/arqam/Desktop/noble-energy/src/app/page.tsx\",\n        lineNumber: 26,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9zcmMvYXBwL3BhZ2UudHN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7QUFDMkM7QUFDUTtBQVlwQyxTQUFTRztJQUN0QixNQUFNLENBQUNDLFNBQVMsR0FBR0YsZ0VBQWdCQTtJQUNuQyxNQUFNLENBQUNHLFFBQVFDLFVBQVUsR0FBR0wsK0NBQVFBLENBQVUsRUFBRTtJQUVoREQsZ0RBQVNBOzhCQUFDO1lBQ1JPLE1BQU0sZ0JBQ0hDLElBQUk7c0NBQUNDLENBQUFBLE1BQU9BLElBQUlDLElBQUk7cUNBQ3BCRixJQUFJLENBQUNGO1FBQ1Y7NkJBQUcsRUFBRTtJQUVMLHFCQUNFLDhEQUFDSztRQUFJQyxXQUFVO1FBQVFDLEtBQUtUO2tCQUMxQiw0RUFBQ087WUFBSUMsV0FBVTtzQkFDWlAsT0FBT1MsR0FBRyxDQUFDLENBQUNDLHNCQUNYLDhEQUFDSjtvQkFBSUMsV0FBVTs7c0NBQ2IsOERBQUNJOzRCQUFJQyxLQUFLRixNQUFNRyxRQUFROzRCQUFFQyxLQUFLSixNQUFNSyxLQUFLOzs7Ozs7c0NBQzFDLDhEQUFDQztzQ0FBSU4sTUFBTUssS0FBSzs7Ozs7O3NDQUNoQiw4REFBQ0U7c0NBQUdQLE1BQU1RLFFBQVE7Ozs7OztzQ0FDbEIsOERBQUNDOzRCQUFFQyxNQUFNVixNQUFNVyxVQUFVLElBQUk7NEJBQUtDLFFBQU87c0NBQ3ZDLDRFQUFDQzswQ0FBUWIsTUFBTWMsVUFBVTs7Ozs7Ozs7Ozs7O21CQUxNZCxNQUFNZSxHQUFHOzs7Ozs7Ozs7Ozs7Ozs7QUFZdEQiLCJzb3VyY2VzIjpbIi9Vc2Vycy9hcnFhbS9EZXNrdG9wL25vYmxlLWVuZXJneS9zcmMvYXBwL3BhZ2UudHN4Il0sInNvdXJjZXNDb250ZW50IjpbIid1c2UgY2xpZW50J1xuaW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHVzZUVtYmxhQ2Fyb3VzZWwgZnJvbSAnZW1ibGEtY2Fyb3VzZWwtcmVhY3QnXG5pbXBvcnQgeyBnZXRTbGlkZXJzIH0gZnJvbSAnQC9xdWVyaWVzL2dldFNsaWRlcnMnXG5cbnR5cGUgU2xpZGUgPSB7XG4gIF9pZDogc3RyaW5nXG4gIHRpdGxlOiBzdHJpbmdcbiAgc3VidGl0bGU6IHN0cmluZ1xuICBpbWFnZVVybDogc3RyaW5nXG4gIGJ1dHRvblRleHQ6IHN0cmluZ1xuICBidXR0b25MaW5rOiBzdHJpbmdcbn1cblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSG9tZVBhZ2UoKSB7XG4gIGNvbnN0IFtlbWJsYVJlZl0gPSB1c2VFbWJsYUNhcm91c2VsKClcbiAgY29uc3QgW3NsaWRlcywgc2V0U2xpZGVzXSA9IHVzZVN0YXRlPFNsaWRlW10+KFtdKVxuXG4gIHVzZUVmZmVjdCgoKSA9PiB7XG4gICAgZmV0Y2goJy9hcGkvc2xpZGVycycpXG4gICAgICAudGhlbihyZXMgPT4gcmVzLmpzb24oKSlcbiAgICAgIC50aGVuKHNldFNsaWRlcylcbiAgfSwgW10pXG5cbiAgcmV0dXJuIChcbiAgICA8ZGl2IGNsYXNzTmFtZT1cImVtYmxhXCIgcmVmPXtlbWJsYVJlZn0+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cImVtYmxhX19jb250YWluZXJcIj5cbiAgICAgICAge3NsaWRlcy5tYXAoKHNsaWRlKSA9PiAoXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJlbWJsYV9fc2xpZGVcIiBrZXk9e3NsaWRlLl9pZH0+XG4gICAgICAgICAgICA8aW1nIHNyYz17c2xpZGUuaW1hZ2VVcmx9IGFsdD17c2xpZGUudGl0bGV9IC8+XG4gICAgICAgICAgICA8aDI+e3NsaWRlLnRpdGxlfTwvaDI+XG4gICAgICAgICAgICA8cD57c2xpZGUuc3VidGl0bGV9PC9wPlxuICAgICAgICAgICAgPGEgaHJlZj17c2xpZGUuYnV0dG9uTGluayB8fCAnIyd9IHRhcmdldD1cIl9ibGFua1wiPlxuICAgICAgICAgICAgICA8YnV0dG9uPntzbGlkZS5idXR0b25UZXh0fTwvYnV0dG9uPlxuICAgICAgICAgICAgPC9hPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICApKX1cbiAgICAgIDwvZGl2PlxuICAgIDwvZGl2PlxuICApXG59Il0sIm5hbWVzIjpbInVzZUVmZmVjdCIsInVzZVN0YXRlIiwidXNlRW1ibGFDYXJvdXNlbCIsIkhvbWVQYWdlIiwiZW1ibGFSZWYiLCJzbGlkZXMiLCJzZXRTbGlkZXMiLCJmZXRjaCIsInRoZW4iLCJyZXMiLCJqc29uIiwiZGl2IiwiY2xhc3NOYW1lIiwicmVmIiwibWFwIiwic2xpZGUiLCJpbWciLCJzcmMiLCJpbWFnZVVybCIsImFsdCIsInRpdGxlIiwiaDIiLCJwIiwic3VidGl0bGUiLCJhIiwiaHJlZiIsImJ1dHRvbkxpbmsiLCJ0YXJnZXQiLCJidXR0b24iLCJidXR0b25UZXh0IiwiX2lkIl0sImlnbm9yZUxpc3QiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(ssr)/./src/app/page.tsx\n");
 
 /***/ }),
 
@@ -216,72 +194,6 @@ module.exports = require("next/dist/server/app-render/work-unit-async-storage.ex
 
 /***/ }),
 
-/***/ "assert":
-/*!*************************!*\
-  !*** external "assert" ***!
-  \*************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("assert");
-
-/***/ }),
-
-/***/ "buffer":
-/*!*************************!*\
-  !*** external "buffer" ***!
-  \*************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("buffer");
-
-/***/ }),
-
-/***/ "events":
-/*!*************************!*\
-  !*** external "events" ***!
-  \*************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("events");
-
-/***/ }),
-
-/***/ "http":
-/*!***********************!*\
-  !*** external "http" ***!
-  \***********************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("http");
-
-/***/ }),
-
-/***/ "https":
-/*!************************!*\
-  !*** external "https" ***!
-  \************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("https");
-
-/***/ }),
-
-/***/ "net":
-/*!**********************!*\
-  !*** external "net" ***!
-  \**********************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("net");
-
-/***/ }),
-
 /***/ "next/dist/compiled/next-server/app-page.runtime.dev.js":
 /*!*************************************************************************!*\
   !*** external "next/dist/compiled/next-server/app-page.runtime.dev.js" ***!
@@ -290,17 +202,6 @@ module.exports = require("net");
 
 "use strict";
 module.exports = require("next/dist/compiled/next-server/app-page.runtime.dev.js");
-
-/***/ }),
-
-/***/ "os":
-/*!*********************!*\
-  !*** external "os" ***!
-  \*********************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("os");
 
 /***/ }),
 
@@ -315,50 +216,6 @@ module.exports = require("path");
 
 /***/ }),
 
-/***/ "querystring":
-/*!******************************!*\
-  !*** external "querystring" ***!
-  \******************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("querystring");
-
-/***/ }),
-
-/***/ "stream":
-/*!*************************!*\
-  !*** external "stream" ***!
-  \*************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("stream");
-
-/***/ }),
-
-/***/ "tls":
-/*!**********************!*\
-  !*** external "tls" ***!
-  \**********************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("tls");
-
-/***/ }),
-
-/***/ "tty":
-/*!**********************!*\
-  !*** external "tty" ***!
-  \**********************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("tty");
-
-/***/ }),
-
 /***/ "url":
 /*!**********************!*\
   !*** external "url" ***!
@@ -367,28 +224,6 @@ module.exports = require("tty");
 
 "use strict";
 module.exports = require("url");
-
-/***/ }),
-
-/***/ "util":
-/*!***********************!*\
-  !*** external "util" ***!
-  \***********************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("util");
-
-/***/ }),
-
-/***/ "zlib":
-/*!***********************!*\
-  !*** external "zlib" ***!
-  \***********************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("zlib");
 
 /***/ })
 
@@ -399,7 +234,7 @@ module.exports = require("zlib");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/@sanity","vendor-chunks/next","vendor-chunks/rxjs","vendor-chunks/readable-stream","vendor-chunks/get-it","vendor-chunks/@swc","vendor-chunks/debug","vendor-chunks/inherits","vendor-chunks/follow-redirects","vendor-chunks/embla-carousel","vendor-chunks/embla-carousel-reactive-utils","vendor-chunks/embla-carousel-react","vendor-chunks/xtend","vendor-chunks/util-deprecate","vendor-chunks/tunnel-agent","vendor-chunks/through2","vendor-chunks/supports-color","vendor-chunks/string_decoder","vendor-chunks/speedometer","vendor-chunks/safe-buffer","vendor-chunks/progress-stream","vendor-chunks/process-nextick-args","vendor-chunks/ms","vendor-chunks/mimic-response","vendor-chunks/is-retry-allowed","vendor-chunks/has-flag","vendor-chunks/decompress-response","vendor-chunks/core-util-is"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.tsx&appDir=%2FUsers%2Farqam%2FDesktop%2Fnoble-energy%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Farqam%2FDesktop%2Fnoble-energy&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/embla-carousel","vendor-chunks/embla-carousel-reactive-utils","vendor-chunks/embla-carousel-react"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.tsx&appDir=%2FUsers%2Farqam%2FDesktop%2Fnoble-energy%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Farqam%2FDesktop%2Fnoble-energy&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();

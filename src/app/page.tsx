@@ -17,7 +17,9 @@ export default function HomePage() {
   const [slides, setSlides] = useState<Slide[]>([])
 
   useEffect(() => {
-    getSliders().then(setSlides)
+    fetch('/api/sliders')
+      .then(res => res.json())
+      .then(setSlides)
   }, [])
 
   return (

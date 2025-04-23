@@ -7,5 +7,3 @@ export const sanityClient = createClient({
   useCdn: false,
   token: process.env.NEXT_PUBLIC_SANITY_TOKEN,
 })
-
-console.log('SANITY TOKEN:', process.env.NEXT_PUBLIC_SANITY_TOKEN)
