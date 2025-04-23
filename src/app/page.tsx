@@ -36,12 +36,18 @@ export default function HomePage() {
   }, [])
 
   useEffect(() => {
-    if (!emblaApi) return undefined;
+    if (!emblaApi) return;
   
-    const onSelect = () => setSelectedIndex(emblaApi.selectedScrollSnap());
+    const onSelect = (): void => {
+      if (!emblaApi) return;
+      setSelectedIndex(emblaApi.selectedScrollSnap());
+    };
+  
     emblaApi.on('select', onSelect);
   
-    return () => emblaApi.off('select', onSelect);
+    return () => {
+      emblaApi.off('select', onSelect);
+    };
   }, [emblaApi]);
 
   return (
