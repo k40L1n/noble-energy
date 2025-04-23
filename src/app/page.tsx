@@ -1,7 +1,6 @@
 'use client'
 import { useEffect, useState } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
-import { getSliders } from '@/queries/getSliders'
 
 type Slide = {
   _id: string
